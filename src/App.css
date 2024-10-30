@@ -1,29 +1,52 @@
-.container {
+/* Reset and Basic Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ab {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  /* Centers content vertically */
   align-items: center;
+  /* Centers content horizontally */
+  height: 100vh;
+  /* Full viewport height */
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20210902/pngtree-summer-math-tutoring-class-enrollment-background-material-image_783877.jpg');
+  background-size: cover;
+
 }
 
-
-.button {
-  background-color: green;
-  padding: 10px 50px;
-  border-radius: 10px;
-  border: none;
-  font-size: 20px;
-}
-
-.button:hover {
-  background-color: rgb(7, 106, 192);
-  transition: 0.3s;
-}
-
-.buttons {
-  display: flex;
-  justify-content: center;
-  gap: 50px;
+.container {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 h1 {
-  margin-top: 250px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.button {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.card {
+  background-color: rgb(111, 177, 221);
+  padding: 80px 140px;
+  box-shadow: 0 8px 20px rgba(54, 54, 54, 0.3);
 }
